@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PNPBACOOR</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <img src="PNPLOGO.png" width="150px">
+            <img src="BACOORLOGO.png" width="90px">
+            <div class="toggle"></div>
+        </header>
+
+        <video src="PNPDAW.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Welcome To</h2>
+            <h3> THE e-PNP <br>( Bacoor)</h3>
+            <p> The Philippine National Police of Bacoor Quiz goal to refresh our policeman 's knowledge and skills in the field.</p> 
+            <a href="Personal.html">Press Here To Start</a>
+        </div>
+
+        <ul class="social">
+        <li><a href="https://www.facebook.com/p/Bacoor-Component-City-Police-Station-100069217269852/"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="" /></a></li>
+        <li><a href="https://twitter.com/BacoorPnpPcr"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="" /></a></li>
+        <li><a href="https://www.instagram.com/bacoorpcr/"><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="" /></a></li>
+        </ul>
+    </section>  
+
+    <div class="MenuP">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Personal.html">City Ordinances</a></li>
+            <li><a href="Education.html">Recent Laws/Ammendment/Provisions</a></li> 
+            <li><a href="Skills.html">Professional Skills & Trainings</a></li>
+            <li><a href="Photo_Gallery.html">Photo Gallery</a></li>
+        </ul>
+    </div>
+
+    <script>
+         const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+</body>
+</html>
